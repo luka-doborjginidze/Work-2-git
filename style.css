@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0F172A;
+}
+
+header {
+    padding: 34px 0;
+    margin-bottom: 94px;
+}
+
+.container {
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.navigation ul a {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F8FAFC;
+    text-decoration: none;
+}
+
+.navigation li {
+    padding: 10px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #F8FAFC;
+    margin-bottom: 83px;
+}
+h2 span {
+    color: #16B8F3;
+}
+
+.container-small {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.cardss {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.cards {
+    background-color: #1E293B66;
+    border-radius: 20px;
+    padding: 34px 8px;
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+.cards > div {
+    display: flex;
+    flex-direction: column; 
+    gap: 25px;
+}
+
+ .cards h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #F8FAFC;
+ }
+
+ .cards p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+ }
+
+ .cards div p:first-child {
+    margin-bottom: 14px;
+ }
+
+ .recent-project {
+    margin-bottom: 94px;
+ }
+
+.latest-container {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.card2 {
+    display: flex;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.card1 {
+    background-color: #1E293B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23.37px;
+    border-radius: 20px;
+}
+
+.card1 > div {
+    display: flex;
+    flex-direction: column; 
+    gap: 25px;
+    align-items: center;
+}
+.card1 h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    color: #F8FAFC;
+}
+
+.card1 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #F8FAFC;
+    margin-bottom: 74px;
+}
+
+.latest-posts {
+    margin-bottom: 139px;
+}
+
+.container2 {
+    max-width: 1160px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+    
+.navigation2 ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigation2 ul a {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F8FAFC;
+    text-decoration: none;
+}
